@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <div class="form-class">
+    <label for="registerform" id="title">Application for Credit Card</label>
+    <form action="#" method="POST" id="registerform" name="register_form" onsubmit="return validate()">
+        <label for="firstname">First Name :</label>
+        <input id="firstname" type="text" maxlength="40" class="input"><br>
+
+        <label for="lastname">Last Name :</label>
+        <input id="lastname" type="text" maxlength="40" class="input"><br>
+
+        <label for="address">Address : </label>
+        <textarea  id="address" name="address" cols="20" rows="4"></textarea><br>
+
+        <label for="language">Language Known :</label>
+        <select id="language" class="input">
+        <option selected>Select Here...</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        </select><br>
+
+        <label for="sex">Sex : </label>
+        <input name="sex" type="radio" id="male" class="input">Male
+        <input name="sex" type="radio" id="Female" class="input">Female<br>
+
+        <label for="hobbies">Hobbies : </label>
+        <input type="checkbox" id="hobbies">Dancing
+        <input type="checkbox" id="hobbies">Singing
+        <input type="checkbox" id="hobbies">Travelling<br>
+        <input type="submit">
+    </form>
+    </div>
+</body>
+</html>
